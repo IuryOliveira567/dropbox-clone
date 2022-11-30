@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-pane {
+    background-color: #61082B;
+    height: 100vh;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-pane ul li {
+    display: inline-block;
+}
+
+.left-pane ul li a {
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px; 
+}
+
+.left-pane h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #B4D0E7;
+    margin-top: 12%;
+}
+
+.left-pane p {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.right-pane {
+    margin-left: 10%;
+}
+
+.right-pane ul {
+    text-align: center;
+}
+
+.right-pane ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}   
+
+.right-pane ul li a {
+    color: black;
+}
+
+.right-pane h1 {
+    font-size: 1.4rem;
+}
+
+form a:visited {
+    color:mediumblue;
+}
+
+.right-pane input {
+    width: 70%;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.right-pane input:focus {
+    background-color: #FAFFBD;
+}
+
+form {
+    padding-bottom: 2rem;
+}
+
+form label {
+    font-size: 0.8rem;
+    color: black;
+}
+
+form div {
+    width: 76%;
+}
+
+#signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: white;
+    background-color:#0061FF;
+    border: none;
+}
+
+#signupGoogle {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid darkgrey;
+    text-align: center;
+    color: black;
+    background: #fff url("../icons/google.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 20% 50%;
+}
+
+#agree {
+    width: 20px;
+}
+
+#agree-label {
+    font-size: 1rem;
+}
