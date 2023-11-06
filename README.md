@@ -1,6 +1,6 @@
 # dropbox-clone
 
-This is a Dropbox clone landing page i did to train my skills in html, css and responsive design.
+This is my first front end project, a Dropbox clone landing page i did to train my skills in html, css and responsive design.
 
 ### technologies used
   <div style="display: inline-block"><br/>
